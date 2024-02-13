@@ -1,0 +1,12 @@
+{
+	"name": "cakesbyzeemah",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"scss": "sass --watch scss/index.scss css/index.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="css/index.css" />
+		<title>CakesbyZeemah</title>
+	</head>
+	<body>
+		<header id="home">
+			<h1>CakesbyZeemah</h1>
+			<nav class="hide">
+				<a href="#home">Home</a>
+				<a href="#product">Products</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<button class="menu-bar">
+				<i class="fa fa-bars"></i>
+			</button>
+		</header>
+		<section class="showcase">
+			<h1>Welcome to <span>Cakes by Zeemah</span></h1>
+			<p>Tasty &amp; fluffy confectioneries</p>
+			<a href="/">Explore</a>
+		</section>
+		<section class="about">
+			<h1>About Us</h1>
+			<p>Your sure maker of tasty cakes</p>
+			<img src="./images/logo.jpg" alt="logo" />
+			<div class="about-note">
+				<h1>Hi, I'm Hazeemah</h1>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+				expedita fugiat labore, temporibus officia culpa, aliquid, placeat quis
+				saepe qui ducimus mollitia voluptatum nisi magni ea vero voluptatibus
+				odit? Nobis culpa eveniet voluptas reiciendis tempora commodi non odit.
+				Officia suscipit praesentium, placeat rerum sit, reiciendis sint ipsam
+				numquam, nemo cum nihil sequi eum quasi eligendi necessitatibus harum?
+				Laborum voluptatibus eos dolore, ipsa magni! Animi amet dicta, id ipsam
+				voluptas nulla quam tenetur perferendis harum molestiae necessitatibus
+				iure similique, eos libero.
+			</div>
+		</section>
+		<section id="product" class="product">
+			<h1>Products</h1>
+			<p>Here are some of our flawless confectioneries we've made</p>
+			<section class="swiper">
+				<section class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="./images/cake1.jpg" alt="cake1" />
+						<div class="content">
+							<h1>Cute But Scorpio</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+								repudiandae omnis aut ea, laboriosam in commodi dolore assumenda
+								veniam quibusdam!
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="./images/cake2.jpg" alt="cake2" />
+						<div class="content">
+							<h1>Wedding Cake</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+								repudiandae omnis aut ea, laboriosam in commodi dolore assumenda
+								veniam quibusdam!
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="./images/cake3.jpg" alt="cake3" />
+						<div class="content">
+							<h1>Birthday Cake</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+								repudiandae omnis aut ea, laboriosam in commodi dolore assumenda
+								veniam quibusdam!
+							</p>
+						</div>
+					</div>
+				</section>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-pagination"></div>
+			</section>
+		</section>
+		<section class="message">
+			<h1>Message Us</h1>
+			<p>You can drop a cake request for us via:</p>
+			<form>
+				<input type="email" name="email" placeholder="Email" required />
+				<input type="text" name="full_name" placeholder="Fullname" required />
+				<input type="text" name="cake_name" placeholder="Cake name" required />
+				<textarea
+					name="cake_description"
+					cols="30"
+					rows="10"
+					placeholder="Cake description"
+					required
+				></textarea>
+				<a href="/"> Submit </a>
+			</form>
+		</section>
+		<footer id="contact">
+			<section class="bottom">
+				<div class="location">
+					<div>
+						<i class="fa fa-location"></i>
+						Oye, Ekiti
+					</div>
+					<div>
+						<i class="fa fa-phone"></i>
+						+234916840317
+					</div>
+					<div>
+						<i class="far fa-envelope"></i>
+						user@example.com
+					</div>
+				</div>
+				<div class="social">
+					<a href="/"><i class="fab fa-facebook"></i></a>
+					<a href="/"><i class="fab fa-twitter"></i></a>
+					<a href="/"><i class="fab fa-whatsapp"></i></a>
+					<a href="/"><i class="fab fa-instagram"></i></a>
+				</div>
+				<div class="rights">
+					<div>&copy; CakesbyZeemah, All rights reserved</div>
+					<div>
+						Created by
+						<a href="httos://habibadebayo.vercel.app/"> Habib Adebayo </a>
+					</div>
+				</div>
+			</section>
+		</footer>
+		<script src="js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script>
+			const swiper = new Swiper(".swiper", {
+				direction: "horizontal",
+				loop: true,
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev"
+				},
+				scrollbar: {
+					el: ".swiper-scrollbar"
+				}
+			});
+		</script>
+	</body>
+</html>
