@@ -35,7 +35,7 @@ header .menu-bar i {
 
 .showcase {
   text-align: center;
-  background: hsl(15, 74.6%, 27.8%);
+  background: hsl(161, 93.5%, 30.4%);
   color: #fff;
   padding: 150px 20px;
   display: flex;
@@ -55,7 +55,7 @@ header .menu-bar i {
 
 .showcase a {
   background: #fff;
-  color: hsl(15, 74.6%, 27.8%);
+  color: hsl(161, 93.5%, 30.4%);
   padding: 10px 16px;
   border-radius: 6px;
   text-decoration: none;
@@ -88,7 +88,7 @@ header .menu-bar i {
 }
 
 .about-note h1 {
-  color: hsl(15, 74.6%, 27.8%);
+  color: hsl(161, 93.5%, 30.4%);
   text-decoration: underline;
 }
 
@@ -101,7 +101,7 @@ header .menu-bar i {
 }
 
 .swiper {
-  background: hsl(15, 74.6%, 27.8%);
+  background: hsl(161, 93.5%, 30.4%);
   color: #fff;
   border-radius: 10px;
 }
@@ -141,7 +141,7 @@ header .menu-bar i {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: hsl(15, 74.6%, 27.8%);
+  color: hsl(161, 93.5%, 30.4%);
 }
 
 .message {
@@ -168,7 +168,7 @@ header .menu-bar i {
   width: 100%;
   border-radius: 6px;
   border: 1px solid lightgrey;
-  caret-color: hsl(15, 74.6%, 27.8%);
+  caret-color: hsl(161, 93.5%, 30.4%);
   resize: none;
 }
 
@@ -179,7 +179,7 @@ header .menu-bar i {
 
 .message form a {
   display: block;
-  background: hsl(15, 74.6%, 27.8%);
+  background: hsl(161, 93.5%, 30.4%);
   color: #fff;
   font-size: 18px;
   padding: 12px 16px;
@@ -190,7 +190,7 @@ header .menu-bar i {
 }
 
 footer {
-  background: hsl(15, 74.6%, 27.8%);
+  background: hsl(161, 93.5%, 30.4%);
   color: #fff;
 }
 
@@ -221,7 +221,7 @@ footer {
 }
 
 .bottom .social a {
-  color: hsl(15, 74.6%, 27.8%);
+  color: hsl(161, 93.5%, 30.4%);
   background: #fff;
   width: 40px;
   height: 40px;
@@ -259,7 +259,7 @@ footer {
   header nav {
     position: absolute;
     width: 100%;
-    background: hsl(15, 74.6%, 27.8%);
+    background: hsl(161, 93.5%, 30.4%);
     top: 72px;
     left: 0;
     display: flex;
@@ -294,7 +294,7 @@ footer {
   }
   header nav a {
     text-decoration: none;
-    color: hsl(15, 74.6%, 27.8%);
+    color: hsl(161, 93.5%, 30.4%);
     font-size: 1.2em;
     font-weight: bolder;
   }
