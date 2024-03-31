@@ -4,9 +4,12 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"scss": "sass --watch scss/index.scss css/index.css"
+		"start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.3"
+	}
 }
