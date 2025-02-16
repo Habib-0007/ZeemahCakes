@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+.header {
+  background: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+.nav .logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.nav .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.nav .menu a {
+  text-decoration: none;
+  color: #271007;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05ch;
+}
+.nav .order-btn {
+  background: #271007;
+  color: #fff5f7;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.nav .order-btn:hover {
+  opacity: 0.7;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  background: url("../img/cake-4.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #271007;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.6;
+}
+
+/* Cakes */
+.cakes {
+  padding: 5rem 1rem;
+  background: var(--light);
+}
+
+.cakes h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cake-card {
+  background: #271007;
+  border-radius: 10px;
+  color: #fff5f7;
+  transition: transform 0.3s;
+}
+.cake-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.cake-card:hover {
+  transform: translateY(-5px);
+}
+
+.cake-info {
+  padding: 1.5rem;
+}
+
+.price {
+  color: #ddb4aa;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact {
+  padding: 5rem 1rem;
+  background: #fff5f7;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 20px;
+}
+.form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.form-group input:hover, .form-group input:focus,
+.form-group textarea:hover,
+.form-group textarea:focus {
+  border-color: #271007;
+}
+
+/* Footer */
+.footer {
+  background: #271007;
+  color: #fff5f7;
+  text-align: center;
+  padding: 2rem;
+}
+
+.social a {
+  color: #fff5f7;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
